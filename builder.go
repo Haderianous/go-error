@@ -28,6 +28,6 @@ func BadRequest(err ...error) ErrorModel {
 	return New(err...).WithType(TypeBadRequest)
 }
 
-func Processing(err ...error) ErrorModel {
-	return New(err...).WithType(TypeProcessing)
+func Accepted(err ...error) ErrorModel {
+	return New(err...).WithType(TypeAccepted)
 }
