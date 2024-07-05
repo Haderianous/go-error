@@ -10,6 +10,7 @@ const (
 	TypeUnAvailable        = "UNAVAILABLE"
 	TypeDuplicate          = "DUPLICATED"
 	TypeBadRequest         = "BAD_REQUEST"
+	TypeProcessing         = "PROCESSING"
 )
 
 func Is(model ErrorModel, t Type) bool {

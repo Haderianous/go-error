@@ -27,3 +27,7 @@ func Duplicated(err ...error) ErrorModel {
 func BadRequest(err ...error) ErrorModel {
 	return New(err...).WithType(TypeBadRequest)
 }
+
+func Processing(err ...error) ErrorModel {
+	return New(err...).WithType(TypeProcessing)
+}
