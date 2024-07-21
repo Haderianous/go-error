@@ -10,6 +10,7 @@ const (
 	TypeUnAvailable        = "UNAVAILABLE"
 	TypeDuplicate          = "DUPLICATED"
 	TypeBadRequest         = "BAD_REQUEST"
+	TypeConflict           = "CONFLICT"
 	TypeAccepted           = "ACCEPTED"
 )
 

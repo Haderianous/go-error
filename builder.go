@@ -28,6 +28,10 @@ func BadRequest(err ...error) ErrorModel {
 	return New(err...).WithType(TypeBadRequest)
 }
 
+func Conflict(err ...error) ErrorModel {
+	return New(err...).WithType(TypeConflict)
+}
+
 func Accepted(err ...error) ErrorModel {
 	return New(err...).WithType(TypeAccepted)
 }
